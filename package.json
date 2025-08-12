@@ -1,0 +1,37 @@
+{
+  "name": "assistant_ai_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robel16/assistant_ai_automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robel16/assistant_ai_automation/issues"
+  },
+  "homepage": "https://github.com/robel16/assistant_ai_automation#readme",
+  "dependencies": {
+    "@google-cloud/scheduler": "^5.3.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "googleapis": "^155.0.1",
+    "mongoose": "^8.17.1",
+    "nodemailer": "^7.0.5",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  }
+}
